@@ -1,5 +1,7 @@
 # Codex Skills Collection
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 A growing collection of production-oriented skills for Codex. Each skill is self-contained under `skills/` and includes concise agent instructions plus deterministic scripts and references where reliability matters.
 
 ## Included skills
@@ -7,6 +9,7 @@ A growing collection of production-oriented skills for Codex. Each skill is self
 | Skill | Purpose |
 | --- | --- |
 | `codex-desktop-pet` | Create, repair, validate, preview, and package animated pets for the Codex desktop app. |
+| `hand-drawn-illustration` | Turn articles and ideas into original, coherent hand-drawn editorial illustrations. |
 
 ## Install a skill
 
@@ -14,9 +17,10 @@ Copy or symlink a skill directory into `${CODEX_HOME:-$HOME/.codex}/skills/`:
 
 ```bash
 cp -R skills/codex-desktop-pet "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R skills/hand-drawn-illustration "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
-Restart or reload Codex so the skill catalog is refreshed. Invoke it explicitly with `$codex-desktop-pet`, or describe a matching desktop-pet task.
+Restart or reload Codex so the skill catalog is refreshed. Invoke a skill explicitly with `$codex-desktop-pet` or `$hand-drawn-illustration`, or describe a matching task.
 
 ## Validate the repository
 

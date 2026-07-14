@@ -5,3 +5,10 @@ skill, Copyright OpenAI, licensed under the Apache License 2.0.
 
 Upstream source:
 https://github.com/openai/skills/tree/main/skills/.curated/hatch-pet
+
+The hand-drawn-illustration skill was independently redesigned with workflow
+inspiration from GiMi-Xiaomi/gimi-illustration-skill, licensed under the MIT
+License. No Gimi character artwork or other Gimi IP assets are included.
+
+Reference source:
+https://github.com/GiMi-Xiaomi/gimi-illustration-skill
