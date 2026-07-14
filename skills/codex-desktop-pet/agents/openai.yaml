@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Desktop Pet"
+  short_description: "Create and validate animated Codex desktop pets"
+  default_prompt: "Use $codex-desktop-pet to create a Codex-compatible animated desktop pet from my concept or reference image."
