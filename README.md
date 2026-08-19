@@ -8,6 +8,9 @@ A growing collection of production-oriented skills for Codex. Each skill is self
 
 | Skill | Purpose |
 | --- | --- |
+| `baoyu-article-illustrator` | Analyze articles and generate coherent supporting illustrations. |
+| `baoyu-cover-image` | Generate configurable article covers across type, palette, rendering, text, and mood. |
+| `baoyu-post-to-wechat` | Publish articles or image-text posts to a WeChat Official Account via API or Chrome. |
 | `codex-desktop-pet` | Create, repair, validate, preview, and package animated pets for the Codex desktop app. |
 | `codex-dream-skin` | Install, customize, verify, repair, and safely restore reversible Codex desktop themes. |
 | `hand-drawn-illustration` | Turn articles and ideas into original, coherent hand-drawn editorial illustrations. |
@@ -18,17 +21,28 @@ A growing collection of production-oriented skills for Codex. Each skill is self
 Copy or symlink a skill directory into `${CODEX_HOME:-$HOME/.codex}/skills/`:
 
 ```bash
+cp -R skills/baoyu-article-illustrator "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R skills/baoyu-cover-image "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R skills/baoyu-post-to-wechat "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/codex-desktop-pet "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/codex-dream-skin "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/hand-drawn-illustration "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/ip-as-logo "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
-Restart or reload Codex so the skill catalog is refreshed. Invoke a skill explicitly with `$codex-desktop-pet`, `$codex-dream-skin`, `$hand-drawn-illustration`, or `$ip-as-logo`, or describe a matching task.
+Restart or reload Codex so the skill catalog is refreshed. Invoke any skill explicitly with `$<skill-name>`, or describe a matching task.
+
+The WeChat publishing skill intentionally excludes installed `node_modules` and credentials. Install its locked JavaScript dependencies when needed:
+
+```bash
+(cd "${CODEX_HOME:-$HOME/.codex}/skills/baoyu-post-to-wechat/scripts" && bun install --frozen-lockfile)
+```
+
+If `bun` is not installed, use `npx -y bun` in its place. Store WeChat credentials in a user- or project-level `.baoyu-skills/.env`; never commit that file.
 
 ## Validate the repository
 
-Install the single runtime dependency first:
+Install the Python validation dependency first:
 
 ```bash
 python3 -m pip install -r requirements.txt
@@ -47,4 +61,4 @@ The desktop-pet integration test builds synthetic animation strips, runs the com
 
 Create each new skill at `skills/<skill-name>/`. Keep its `SKILL.md` focused on execution, put detailed domain material in `references/`, and place repeatable or fragile transformations in `scripts/`.
 
-This repository incorporates files derived from OpenAI's Apache-2.0-licensed `hatch-pet` skill. See `NOTICE` and the per-skill license.
+This repository incorporates third-party skill material under Apache-2.0 and MIT licenses. See `NOTICE` and the per-skill licenses.

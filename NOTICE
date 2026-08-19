@@ -19,3 +19,14 @@ runtime, theme image, or injection payload is bundled here.
 
 Reference source:
 https://github.com/Fei-Away/Codex-Dream-Skin
+
+The baoyu-article-illustrator, baoyu-cover-image, and baoyu-post-to-wechat
+skills are adapted from JimLiu/baoyu-skills, Copyright (c) 2026 Jim Liu,
+licensed under the MIT License. They were imported from project-level installed
+copies on 2026-08-19 at versions 1.117.4, 1.117.5, and 1.118.2 respectively.
+OpenClaw-specific frontmatter metadata was normalized for this collection and
+Codex interface descriptors were added. Installed node_modules, project
+preferences, generated content, and credentials are not included.
+
+Upstream source:
+https://github.com/JimLiu/baoyu-skills

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Cover Image"
+  short_description: "Generate configurable article cover images"
+  default_prompt: "Use $baoyu-cover-image to design and generate a cover image for my article."

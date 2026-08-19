@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Article Illustrator"
+  short_description: "Plan and generate coherent article illustrations"
+  default_prompt: "Use $baoyu-article-illustrator to analyze my article and generate a coherent set of supporting illustrations."
