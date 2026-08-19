@@ -12,3 +12,10 @@ License. No Gimi character artwork or other Gimi IP assets are included.
 
 Reference source:
 https://github.com/GiMi-Xiaomi/gimi-illustration-skill
+
+The codex-dream-skin skill documents and orchestrates the separately distributed
+Codex Dream Skin project by Fei-Away and contributors. No Codex Dream Skin
+runtime, theme image, or injection payload is bundled here.
+
+Reference source:
+https://github.com/Fei-Away/Codex-Dream-Skin

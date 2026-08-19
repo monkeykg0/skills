@@ -9,6 +9,7 @@
 | 技能 | 用途 |
 | --- | --- |
 | `codex-desktop-pet` | 为 Codex 桌面应用创建、修复、验证、预览和打包动画宠物。 |
+| `codex-dream-skin` | 安装、定制、验证、修复并安全恢复可逆的 Codex 桌面主题。 |
 | `hand-drawn-illustration` | 将文章和想法转化为原创、统一的手绘编辑插画。 |
 | `ip-as-logo` | 使用圆润、扁平优先的几何造型生成高度简化的拟人 IP 吉祥物 Logo。 |
 
@@ -18,11 +19,12 @@
 
 ```bash
 cp -R skills/codex-desktop-pet "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R skills/codex-dream-skin "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/hand-drawn-illustration "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/ip-as-logo "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
-重启或重新加载 Codex，以刷新技能目录。你可以使用 `$codex-desktop-pet`、`$hand-drawn-illustration` 或 `$ip-as-logo` 显式调用技能，也可以直接描述匹配的任务。
+重启或重新加载 Codex，以刷新技能目录。你可以使用 `$codex-desktop-pet`、`$codex-dream-skin`、`$hand-drawn-illustration` 或 `$ip-as-logo` 显式调用技能，也可以直接描述匹配的任务。
 
 ## 验证仓库
 

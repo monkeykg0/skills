@@ -9,6 +9,7 @@ A growing collection of production-oriented skills for Codex. Each skill is self
 | Skill | Purpose |
 | --- | --- |
 | `codex-desktop-pet` | Create, repair, validate, preview, and package animated pets for the Codex desktop app. |
+| `codex-dream-skin` | Install, customize, verify, repair, and safely restore reversible Codex desktop themes. |
 | `hand-drawn-illustration` | Turn articles and ideas into original, coherent hand-drawn editorial illustrations. |
 | `ip-as-logo` | Generate highly simplified personified mascot logos with rounded, flat-first geometry. |
 
@@ -18,11 +19,12 @@ Copy or symlink a skill directory into `${CODEX_HOME:-$HOME/.codex}/skills/`:
 
 ```bash
 cp -R skills/codex-desktop-pet "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R skills/codex-dream-skin "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/hand-drawn-illustration "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/ip-as-logo "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
-Restart or reload Codex so the skill catalog is refreshed. Invoke a skill explicitly with `$codex-desktop-pet`, `$hand-drawn-illustration`, or `$ip-as-logo`, or describe a matching task.
+Restart or reload Codex so the skill catalog is refreshed. Invoke a skill explicitly with `$codex-desktop-pet`, `$codex-dream-skin`, `$hand-drawn-illustration`, or `$ip-as-logo`, or describe a matching task.
 
 ## Validate the repository
 
