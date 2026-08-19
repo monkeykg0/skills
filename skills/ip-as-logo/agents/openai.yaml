@@ -1,0 +1,4 @@
+interface:
+  display_name: "IP as Logo"
+  short_description: "Generate minimal personified IP mascot logos"
+  default_prompt: "Use $ip-as-logo to propose directions and generate highly simplified personified mascot logo candidates."
