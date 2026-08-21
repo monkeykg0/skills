@@ -30,3 +30,13 @@ preferences, generated content, and credentials are not included.
 
 Upstream source:
 https://github.com/JimLiu/baoyu-skills
+
+The kid-papercraft skill is adapted from kaomei/kid-papercraft,
+Copyright (c) 2026 kaomei, licensed under the MIT License. It was imported
+on 2026-08-21 from upstream commit
+3ff307c51377b2ce8378106ac95782215130f3e0. The skill name was normalized to
+use a hyphen, Codex interface metadata and usage boundaries were added, and
+non-runtime README media was excluded.
+
+Upstream source:
+https://github.com/kaomei/kid-papercraft

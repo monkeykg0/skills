@@ -15,6 +15,7 @@
 | `codex-dream-skin` | 安装、定制、验证、修复并安全恢复可逆的 Codex 桌面主题。 |
 | `hand-drawn-illustration` | 将文章和想法转化为原创、统一的手绘编辑插画。 |
 | `ip-as-logo` | 使用圆润、扁平优先的几何造型生成高度简化的拟人 IP 吉祥物 Logo。 |
+| `kid-papercraft` | 为儿童生成个性化三段式折纸定格动画生日祝福提示词。 |
 
 ## 安装技能
 
@@ -28,6 +29,7 @@ cp -R skills/codex-desktop-pet "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/codex-dream-skin "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/hand-drawn-illustration "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/ip-as-logo "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R skills/kid-papercraft "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
 重启或重新加载 Codex，以刷新技能目录。你可以使用 `$<skill-name>` 显式调用任意技能，也可以直接描述匹配的任务。

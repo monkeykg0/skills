@@ -15,6 +15,7 @@ A growing collection of production-oriented skills for Codex. Each skill is self
 | `codex-dream-skin` | Install, customize, verify, repair, and safely restore reversible Codex desktop themes. |
 | `hand-drawn-illustration` | Turn articles and ideas into original, coherent hand-drawn editorial illustrations. |
 | `ip-as-logo` | Generate highly simplified personified mascot logos with rounded, flat-first geometry. |
+| `kid-papercraft` | Create personalized three-part papercraft stop-motion birthday video prompts for children. |
 
 ## Install a skill
 
@@ -28,6 +29,7 @@ cp -R skills/codex-desktop-pet "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/codex-dream-skin "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/hand-drawn-illustration "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/ip-as-logo "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R skills/kid-papercraft "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
 Restart or reload Codex so the skill catalog is refreshed. Invoke any skill explicitly with `$<skill-name>`, or describe a matching task.

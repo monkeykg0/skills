@@ -1,0 +1,4 @@
+interface:
+  display_name: "萌宝纸艺生日祝福"
+  short_description: "生成三段式儿童折纸定格动画生日祝福提示词"
+  default_prompt: "使用 $kid-papercraft 为孩子定制一套三段式折纸定格动画生日祝福分镜提示词和中文配音。"
